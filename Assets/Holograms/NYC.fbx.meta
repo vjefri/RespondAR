@@ -1,0 +1,850 @@
+fileFormatVersion: 2
+guid: 9c6c36c0501cc0e45b8ff6e2c5264ae9
+timeCreated: 1466878903
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: all glass
+    100002: bruce 4
+    100004: Cam GROUN0
+    100006: Cam GROUND
+    100008: Camera
+    100010: Camera NE0
+    100012: Camera NEW
+    100014: CameraREF
+    100016: CameraREF.
+    100018: CAPITAL RC
+    100020: Car01
+    100022: car01
+    100024: Car02
+    100026: car02
+    100028: Car03
+    100030: Car04
+    100032: Car05
+    100034: Car06
+    100036: Car07
+    100038: Car08
+    100040: Car09
+    100042: Car1
+    100044: Car10
+    100046: Car11
+    100048: Car12
+    100050: Car13
+    100052: Car14
+    100054: Car15
+    100056: Car16
+    100058: Car17
+    100060: Car18
+    100062: Car19
+    100064: Car20
+    100066: Car21
+    100068: Car22
+    100070: Car23
+    100072: Car24
+    100074: Car25
+    100076: Car26
+    100078: Car27
+    100080: Car28
+    100082: Car29
+    100084: 'CHRYSLER '
+    100086: Cube
+    100088: Detail07
+    100090: Detail07A
+    100092: dummyroof
+    100094: genericasA
+    100096: genericash
+    100098: GLASS TWR2
+    100100: glen cnt01
+    100102: glen cnt1A
+    100104: glen cntr
+    100106: glen cntrA
+    100108: HANCOCK SM
+    100110: HANDCOCK
+    100112: HANDCOCK01
+    100114: HOJOES
+    100116: HOJOES_MeshPart0
+    100118: HOJOES_MeshPart1
+    100120: homelyav01
+    100122: homelyaveA
+    100124: homelyaveb
+    100126: HYET
+    100128: jake cntr
+    100130: jake cntr2
+    100132: jaker 10
+    100134: jaker 9
+    100136: JMRwrldwde
+    100138: KUSTOMS
+    100140: Lamp
+    100142: Lamp.001
+    100144: Lamp.002
+    100146: Lamp.003
+    100148: Lamp.004
+    100150: Lamp.005
+    100152: Lamp.006
+    100154: Lamp.007
+    100156: Lamp.008
+    100158: Lamp.009
+    100160: Lamp.010
+    100162: Lamp.011
+    100164: Light01
+    100166: Light02
+    100168: Light02.ta
+    100170: Light03
+    100172: Light03.ta
+    100174: Light04
+    100176: Light04.ta
+    100178: Light05
+    100180: Light06
+    100182: Light06.ta
+    100184: Light07
+    100186: Light07.ta
+    100188: Light08
+    100190: Light08.ta
+    100192: Light09
+    100194: Light09.ta
+    100196: Light10
+    100198: Light10.ta
+    100200: Light11
+    100202: Light11.ta
+    100204: ne 23
+    100206: ne 3
+    100208: ne 4
+    100210: NEW DOME
+    100212: NEW DOME01
+    100214: NEW GLAS01
+    100216: NEW GLASS
+    100218: nw12
+    100220: nw14
+    100222: //RootNode
+    100224: Object01
+    100226: Object02
+    100228: old
+    100230: ORI GLASS
+    100232: RED LITE 2
+    100234: RED LITE01
+    100236: RED LITE02
+    100238: RED LITE03
+    100240: RED LITE04
+    100242: roof
+    100244: se 4
+    100246: SIGN 01
+    100248: SIGN 02
+    100250: SIGN 03
+    100252: SIGN 04
+    100254: SIGN 05
+    100256: SIGN 1
+    100258: STOP SIG01
+    100260: STOP SIG02
+    100262: STOP SIG03
+    100264: STOP SIG04
+    100266: STOP SIGN
+    100268: STOP SIGN1
+    100270: STREET GRD
+    100272: STREET LIT
+    100274: STRET LI01
+    100276: STRET LI02
+    100278: STRET LI03
+    100280: STRET LI04
+    100282: STRET LI05
+    100284: STRET LI06
+    100286: STRET LI07
+    100288: STRET LI08
+    100290: STRET LIT1
+    100292: STRET LN
+    100294: sw1
+    100296: TALL IN 01
+    100298: TALL IN BK
+    100300: THIN MAN 1
+    100302: THIN MAN 2
+    100304: w1-01
+    100306: w1-02
+    100308: w1-03
+    100310: w1-04
+    100312: w1-04A
+    100314: w1-05
+    100316: w1-1/01
+    100318: w1-1/02
+    100320: w4-1/3
+    100322: w4-1/3A
+    100324: w4-2/01
+    100326: w4-2/3
+    100328: w4-3/01
+    100330: w4-3/02
+    100332: w4-3/03
+    100334: w5-01
+    100336: w5-02
+    100338: w5-02A
+    100340: w5-03
+    100342: w5-1
+    400000: all glass
+    400002: bruce 4
+    400004: Cam GROUN0
+    400006: Cam GROUND
+    400008: Camera
+    400010: Camera NE0
+    400012: Camera NEW
+    400014: CameraREF
+    400016: CameraREF.
+    400018: CAPITAL RC
+    400020: Car01
+    400022: car01
+    400024: Car02
+    400026: car02
+    400028: Car03
+    400030: Car04
+    400032: Car05
+    400034: Car06
+    400036: Car07
+    400038: Car08
+    400040: Car09
+    400042: Car1
+    400044: Car10
+    400046: Car11
+    400048: Car12
+    400050: Car13
+    400052: Car14
+    400054: Car15
+    400056: Car16
+    400058: Car17
+    400060: Car18
+    400062: Car19
+    400064: Car20
+    400066: Car21
+    400068: Car22
+    400070: Car23
+    400072: Car24
+    400074: Car25
+    400076: Car26
+    400078: Car27
+    400080: Car28
+    400082: Car29
+    400084: 'CHRYSLER '
+    400086: Cube
+    400088: Detail07
+    400090: Detail07A
+    400092: dummyroof
+    400094: genericasA
+    400096: genericash
+    400098: GLASS TWR2
+    400100: glen cnt01
+    400102: glen cnt1A
+    400104: glen cntr
+    400106: glen cntrA
+    400108: HANCOCK SM
+    400110: HANDCOCK
+    400112: HANDCOCK01
+    400114: HOJOES
+    400116: HOJOES_MeshPart0
+    400118: HOJOES_MeshPart1
+    400120: homelyav01
+    400122: homelyaveA
+    400124: homelyaveb
+    400126: HYET
+    400128: jake cntr
+    400130: jake cntr2
+    400132: jaker 10
+    400134: jaker 9
+    400136: JMRwrldwde
+    400138: KUSTOMS
+    400140: Lamp
+    400142: Lamp.001
+    400144: Lamp.002
+    400146: Lamp.003
+    400148: Lamp.004
+    400150: Lamp.005
+    400152: Lamp.006
+    400154: Lamp.007
+    400156: Lamp.008
+    400158: Lamp.009
+    400160: Lamp.010
+    400162: Lamp.011
+    400164: Light01
+    400166: Light02
+    400168: Light02.ta
+    400170: Light03
+    400172: Light03.ta
+    400174: Light04
+    400176: Light04.ta
+    400178: Light05
+    400180: Light06
+    400182: Light06.ta
+    400184: Light07
+    400186: Light07.ta
+    400188: Light08
+    400190: Light08.ta
+    400192: Light09
+    400194: Light09.ta
+    400196: Light10
+    400198: Light10.ta
+    400200: Light11
+    400202: Light11.ta
+    400204: ne 23
+    400206: ne 3
+    400208: ne 4
+    400210: NEW DOME
+    400212: NEW DOME01
+    400214: NEW GLAS01
+    400216: NEW GLASS
+    400218: nw12
+    400220: nw14
+    400222: //RootNode
+    400224: Object01
+    400226: Object02
+    400228: old
+    400230: ORI GLASS
+    400232: RED LITE 2
+    400234: RED LITE01
+    400236: RED LITE02
+    400238: RED LITE03
+    400240: RED LITE04
+    400242: roof
+    400244: se 4
+    400246: SIGN 01
+    400248: SIGN 02
+    400250: SIGN 03
+    400252: SIGN 04
+    400254: SIGN 05
+    400256: SIGN 1
+    400258: STOP SIG01
+    400260: STOP SIG02
+    400262: STOP SIG03
+    400264: STOP SIG04
+    400266: STOP SIGN
+    400268: STOP SIGN1
+    400270: STREET GRD
+    400272: STREET LIT
+    400274: STRET LI01
+    400276: STRET LI02
+    400278: STRET LI03
+    400280: STRET LI04
+    400282: STRET LI05
+    400284: STRET LI06
+    400286: STRET LI07
+    400288: STRET LI08
+    400290: STRET LIT1
+    400292: STRET LN
+    400294: sw1
+    400296: TALL IN 01
+    400298: TALL IN BK
+    400300: THIN MAN 1
+    400302: THIN MAN 2
+    400304: w1-01
+    400306: w1-02
+    400308: w1-03
+    400310: w1-04
+    400312: w1-04A
+    400314: w1-05
+    400316: w1-1/01
+    400318: w1-1/02
+    400320: w4-1/3
+    400322: w4-1/3A
+    400324: w4-2/01
+    400326: w4-2/3
+    400328: w4-3/01
+    400330: w4-3/02
+    400332: w4-3/03
+    400334: w5-01
+    400336: w5-02
+    400338: w5-02A
+    400340: w5-03
+    400342: w5-1
+    2300000: all glass
+    2300002: bruce 4
+    2300004: Cam GROUN0
+    2300006: Camera NE0
+    2300008: CameraREF
+    2300010: CAPITAL RC
+    2300012: Car01
+    2300014: car01
+    2300016: Car02
+    2300018: car02
+    2300020: Car03
+    2300022: Car04
+    2300024: Car05
+    2300026: Car06
+    2300028: Car07
+    2300030: Car08
+    2300032: Car09
+    2300034: Car1
+    2300036: Car10
+    2300038: Car11
+    2300040: Car12
+    2300042: Car13
+    2300044: Car14
+    2300046: Car15
+    2300048: Car16
+    2300050: Car17
+    2300052: Car18
+    2300054: Car19
+    2300056: Car20
+    2300058: Car21
+    2300060: Car22
+    2300062: Car23
+    2300064: Car24
+    2300066: Car25
+    2300068: Car26
+    2300070: Car27
+    2300072: Car28
+    2300074: Car29
+    2300076: 'CHRYSLER '
+    2300078: Cube
+    2300080: Detail07
+    2300082: Detail07A
+    2300084: dummyroof
+    2300086: genericasA
+    2300088: genericash
+    2300090: GLASS TWR2
+    2300092: glen cnt01
+    2300094: glen cnt1A
+    2300096: glen cntr
+    2300098: glen cntrA
+    2300100: HANCOCK SM
+    2300102: HANDCOCK
+    2300104: HANDCOCK01
+    2300106: HOJOES_MeshPart0
+    2300108: HOJOES_MeshPart1
+    2300110: homelyav01
+    2300112: homelyaveA
+    2300114: homelyaveb
+    2300116: HYET
+    2300118: jake cntr
+    2300120: jake cntr2
+    2300122: jaker 10
+    2300124: jaker 9
+    2300126: JMRwrldwde
+    2300128: KUSTOMS
+    2300130: Light01
+    2300132: Light02
+    2300134: Light03
+    2300136: Light04
+    2300138: Light05
+    2300140: Light06
+    2300142: Light07
+    2300144: Light08
+    2300146: Light09
+    2300148: Light10
+    2300150: Light11
+    2300152: ne 23
+    2300154: ne 3
+    2300156: ne 4
+    2300158: NEW DOME
+    2300160: NEW DOME01
+    2300162: NEW GLAS01
+    2300164: NEW GLASS
+    2300166: nw12
+    2300168: nw14
+    2300170: Object01
+    2300172: Object02
+    2300174: old
+    2300176: ORI GLASS
+    2300178: RED LITE 2
+    2300180: RED LITE01
+    2300182: RED LITE02
+    2300184: RED LITE03
+    2300186: RED LITE04
+    2300188: roof
+    2300190: se 4
+    2300192: SIGN 01
+    2300194: SIGN 02
+    2300196: SIGN 03
+    2300198: SIGN 04
+    2300200: SIGN 05
+    2300202: SIGN 1
+    2300204: STOP SIG01
+    2300206: STOP SIG02
+    2300208: STOP SIG03
+    2300210: STOP SIG04
+    2300212: STOP SIGN
+    2300214: STOP SIGN1
+    2300216: STREET GRD
+    2300218: STREET LIT
+    2300220: STRET LI01
+    2300222: STRET LI02
+    2300224: STRET LI03
+    2300226: STRET LI04
+    2300228: STRET LI05
+    2300230: STRET LI06
+    2300232: STRET LI07
+    2300234: STRET LI08
+    2300236: STRET LIT1
+    2300238: STRET LN
+    2300240: sw1
+    2300242: TALL IN 01
+    2300244: TALL IN BK
+    2300246: THIN MAN 1
+    2300248: THIN MAN 2
+    2300250: w1-01
+    2300252: w1-02
+    2300254: w1-03
+    2300256: w1-04
+    2300258: w1-04A
+    2300260: w1-05
+    2300262: w1-1/01
+    2300264: w1-1/02
+    2300266: w4-1/3
+    2300268: w4-1/3A
+    2300270: w4-2/01
+    2300272: w4-2/3
+    2300274: w4-3/01
+    2300276: w4-3/02
+    2300278: w4-3/03
+    2300280: w5-01
+    2300282: w5-02
+    2300284: w5-02A
+    2300286: w5-03
+    2300288: w5-1
+    3300000: all glass
+    3300002: bruce 4
+    3300004: Cam GROUN0
+    3300006: Camera NE0
+    3300008: CameraREF
+    3300010: CAPITAL RC
+    3300012: Car01
+    3300014: car01
+    3300016: Car02
+    3300018: car02
+    3300020: Car03
+    3300022: Car04
+    3300024: Car05
+    3300026: Car06
+    3300028: Car07
+    3300030: Car08
+    3300032: Car09
+    3300034: Car1
+    3300036: Car10
+    3300038: Car11
+    3300040: Car12
+    3300042: Car13
+    3300044: Car14
+    3300046: Car15
+    3300048: Car16
+    3300050: Car17
+    3300052: Car18
+    3300054: Car19
+    3300056: Car20
+    3300058: Car21
+    3300060: Car22
+    3300062: Car23
+    3300064: Car24
+    3300066: Car25
+    3300068: Car26
+    3300070: Car27
+    3300072: Car28
+    3300074: Car29
+    3300076: 'CHRYSLER '
+    3300078: Cube
+    3300080: Detail07
+    3300082: Detail07A
+    3300084: dummyroof
+    3300086: genericasA
+    3300088: genericash
+    3300090: GLASS TWR2
+    3300092: glen cnt01
+    3300094: glen cnt1A
+    3300096: glen cntr
+    3300098: glen cntrA
+    3300100: HANCOCK SM
+    3300102: HANDCOCK
+    3300104: HANDCOCK01
+    3300106: HOJOES_MeshPart0
+    3300108: HOJOES_MeshPart1
+    3300110: homelyav01
+    3300112: homelyaveA
+    3300114: homelyaveb
+    3300116: HYET
+    3300118: jake cntr
+    3300120: jake cntr2
+    3300122: jaker 10
+    3300124: jaker 9
+    3300126: JMRwrldwde
+    3300128: KUSTOMS
+    3300130: Light01
+    3300132: Light02
+    3300134: Light03
+    3300136: Light04
+    3300138: Light05
+    3300140: Light06
+    3300142: Light07
+    3300144: Light08
+    3300146: Light09
+    3300148: Light10
+    3300150: Light11
+    3300152: ne 23
+    3300154: ne 3
+    3300156: ne 4
+    3300158: NEW DOME
+    3300160: NEW DOME01
+    3300162: NEW GLAS01
+    3300164: NEW GLASS
+    3300166: nw12
+    3300168: nw14
+    3300170: Object01
+    3300172: Object02
+    3300174: old
+    3300176: ORI GLASS
+    3300178: RED LITE 2
+    3300180: RED LITE01
+    3300182: RED LITE02
+    3300184: RED LITE03
+    3300186: RED LITE04
+    3300188: roof
+    3300190: se 4
+    3300192: SIGN 01
+    3300194: SIGN 02
+    3300196: SIGN 03
+    3300198: SIGN 04
+    3300200: SIGN 05
+    3300202: SIGN 1
+    3300204: STOP SIG01
+    3300206: STOP SIG02
+    3300208: STOP SIG03
+    3300210: STOP SIG04
+    3300212: STOP SIGN
+    3300214: STOP SIGN1
+    3300216: STREET GRD
+    3300218: STREET LIT
+    3300220: STRET LI01
+    3300222: STRET LI02
+    3300224: STRET LI03
+    3300226: STRET LI04
+    3300228: STRET LI05
+    3300230: STRET LI06
+    3300232: STRET LI07
+    3300234: STRET LI08
+    3300236: STRET LIT1
+    3300238: STRET LN
+    3300240: sw1
+    3300242: TALL IN 01
+    3300244: TALL IN BK
+    3300246: THIN MAN 1
+    3300248: THIN MAN 2
+    3300250: w1-01
+    3300252: w1-02
+    3300254: w1-03
+    3300256: w1-04
+    3300258: w1-04A
+    3300260: w1-05
+    3300262: w1-1/01
+    3300264: w1-1/02
+    3300266: w4-1/3
+    3300268: w4-1/3A
+    3300270: w4-2/01
+    3300272: w4-2/3
+    3300274: w4-3/01
+    3300276: w4-3/02
+    3300278: w4-3/03
+    3300280: w5-01
+    3300282: w5-02
+    3300284: w5-02A
+    3300286: w5-03
+    3300288: w5-1
+    4300000: roof
+    4300002: ORI GLASS
+    4300004: NEW DOME01
+    4300006: homelyav01
+    4300008: Object02
+    4300010: NEW GLAS01
+    4300012: SIGN 05
+    4300014: SIGN 04
+    4300016: STRET LN
+    4300018: STRET LI08
+    4300020: STRET LI07
+    4300022: STRET LI06
+    4300024: STRET LI05
+    4300026: STRET LI04
+    4300028: STRET LI03
+    4300030: STRET LI02
+    4300032: STRET LI01
+    4300034: STRET LIT1
+    4300036: STOP SIG04
+    4300038: STREET LIT
+    4300040: STOP SIG03
+    4300042: STOP SIG02
+    4300044: SIGN 03
+    4300046: STOP SIG01
+    4300048: STOP SIGN1
+    4300050: SIGN 02
+    4300052: SIGN 01
+    4300054: RED LITE04
+    4300056: RED LITE02
+    4300058: RED LITE01
+    4300060: RED LITE 2
+    4300062: RED LITE03
+    4300064: STOP SIGN
+    4300066: SIGN 1
+    4300068: NEW GLASS
+    4300070: TALL IN 01
+    4300072: TALL IN BK
+    4300074: NEW DOME
+    4300076: 'CHRYSLER '
+    4300078: CAPITAL RC
+    4300080: STREET GRD
+    4300082: HANDCOCK
+    4300084: HANDCOCK01
+    4300086: all glass
+    4300088: CameraREF
+    4300090: HANCOCK SM
+    4300092: Car29
+    4300094: Car28
+    4300096: Car27
+    4300098: Car26
+    4300100: Car25
+    4300102: Car24
+    4300104: Car23
+    4300106: Car22
+    4300108: Car21
+    4300110: Car20
+    4300112: Car19
+    4300114: Car18
+    4300116: Car17
+    4300118: Light11
+    4300120: Light10
+    4300122: Light09
+    4300124: Light08
+    4300126: Light07
+    4300128: Light06
+    4300130: Light04
+    4300132: Light03
+    4300134: Light01
+    4300136: Light05
+    4300138: THIN MAN 2
+    4300140: Car16
+    4300142: Car15
+    4300144: Car14
+    4300146: Car13
+    4300148: Car12
+    4300150: Car06
+    4300152: Car01
+    4300154: Cam GROUN0
+    4300156: Light02
+    4300158: KUSTOMS
+    4300160: HOJOES_MeshPart0
+    4300162: HOJOES_MeshPart1
+    4300164: HYET
+    4300166: GLASS TWR2
+    4300168: Car11
+    4300170: Car10
+    4300172: car01
+    4300174: Car09
+    4300176: Car08
+    4300178: Car07
+    4300180: Car05
+    4300182: Car04
+    4300184: Car03
+    4300186: Car02
+    4300188: Car1
+    4300190: w5-02A
+    4300192: w1-04A
+    4300194: Detail07A
+    4300196: w4-1/3A
+    4300198: homelyaveA
+    4300200: THIN MAN 1
+    4300202: glen cnt1A
+    4300204: genericasA
+    4300206: glen cntrA
+    4300208: Camera NE0
+    4300210: car02
+    4300212: w1-05
+    4300214: w4-3/02
+    4300216: w5-03
+    4300218: w1-1/02
+    4300220: w4-2/01
+    4300222: w1-1/01
+    4300224: w1-03
+    4300226: w5-01
+    4300228: w1-02
+    4300230: w4-3/01
+    4300232: w1-01
+    4300234: w5-02
+    4300236: w4-3/03
+    4300238: nw12
+    4300240: w1-04
+    4300242: Detail07
+    4300244: dummyroof
+    4300246: w5-1
+    4300248: nw14
+    4300250: w4-2/3
+    4300252: w4-1/3
+    4300254: homelyaveb
+    4300256: ne 4
+    4300258: ne 23
+    4300260: old
+    4300262: jake cntr2
+    4300264: jake cntr
+    4300266: ne 3
+    4300268: jaker 9
+    4300270: glen cnt01
+    4300272: bruce 4
+    4300274: genericash
+    4300276: se 4
+    4300278: sw1
+    4300280: Object01
+    4300282: JMRwrldwde
+    4300284: glen cntr
+    4300286: jaker 10
+    4300288: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

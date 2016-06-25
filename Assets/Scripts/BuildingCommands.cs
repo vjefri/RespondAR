@@ -1,8 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-using UnityEngine;
-
 public class BuildingCommands : MonoBehaviour
 {
     public GameObject Build;
@@ -10,7 +8,12 @@ public class BuildingCommands : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-       
+        Build.SetActive(false);
+    }
+
+    void Update()
+    {
+
     }
 
     // Called by GazeGestureManager when the user performs a Select gesture
@@ -22,15 +25,15 @@ public class BuildingCommands : MonoBehaviour
             var rigidbody = this.gameObject.AddComponent<Rigidbody>();
             rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
         }
+
     }
 
     // Called by SpeechManager when the user says the "Get Address" command
     void OnAddress()
     {
         // spawn the building into the scene
-          //Instantiate(Build, new Vector3(2, 2, 0), Quaternion.identity);
-
-        Debug.Log("on address");
+        //Instantiate(Build, new Vector3(2, 2, 0), Quaternion.identity);
+        Build.SetActive(true);
 
     }
 }
