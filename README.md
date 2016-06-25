@@ -1,2 +1,2 @@
-# first-response
-holograms for first responders
+# HoloLens-Defaults
+Quickly setup default settings for Unity HoloLens projects
