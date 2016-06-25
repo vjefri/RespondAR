@@ -26,11 +26,12 @@ public class BuildingCommands : MonoBehaviour
         }
     }
 
-    // Called by SpeechManager when the user says the "Get Building" command
+    // Called by SpeechManager when the user says the "Get Address" command
     void OnAddress()
     {
         // spawn the building into the scene
         Instantiate(Build);
+        Debug.Log(Build);
 
     }
 }

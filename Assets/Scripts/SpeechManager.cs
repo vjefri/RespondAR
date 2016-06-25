@@ -11,7 +11,7 @@ public class SpeechManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        keywords.Add("Get Building", () =>
+        keywords.Add("Get Address", () =>
         {
             // Call the OnAddress method on every descendant object.
             this.BroadcastMessage("OnAddress");
