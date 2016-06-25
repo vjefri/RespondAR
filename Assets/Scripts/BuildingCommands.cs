@@ -28,9 +28,9 @@ public class BuildingCommands : MonoBehaviour
     void OnAddress()
     {
         // spawn the building into the scene
-          Instantiate(Build, new Vector3(2, 2, 0), Quaternion.identity);
+          //Instantiate(Build, new Vector3(2, 2, 0), Quaternion.identity);
 
-        Debug.Log(Build);
+        Debug.Log("on address");
 
     }
 }

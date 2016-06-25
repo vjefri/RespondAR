@@ -100,6 +100,7 @@ GameObject:
   - 4: {fileID: 562318062}
   - 114: {fileID: 562318061}
   - 114: {fileID: 562318063}
+  - 114: {fileID: 562318064}
   m_Layer: 0
   m_Name: Building
   m_TagString: Untagged
@@ -144,6 +145,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12c47114a67b02a43a905b21b076798d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &562318064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 562318060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a04a3ec5ce84644ca161d8c3209060b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RecognizerStart: 0
+  KeywordsAndResponses: []
 --- !u!1 &1358975634
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,8 +403,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 2088645899}
   - 108: {fileID: 2088645898}
-  - 114: {fileID: 2088645900}
-  - 114: {fileID: 2088645901}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -444,25 +456,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &2088645900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2088645897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12c47114a67b02a43a905b21b076798d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2088645901
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2088645897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12c47114a67b02a43a905b21b076798d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
