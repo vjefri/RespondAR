@@ -99,6 +99,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 562318062}
   - 114: {fileID: 562318061}
+  - 114: {fileID: 562318063}
   m_Layer: 0
   m_Name: Building
   m_TagString: Untagged
@@ -132,6 +133,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &562318063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 562318060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12c47114a67b02a43a905b21b076798d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1358975634
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,13 +169,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1358975634}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0024899812, w: 0.9999969}
   m_LocalPosition: {x: 0, y: -0.5, z: 3.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 562318062}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.277}
 --- !u!23 &1358975636
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -378,6 +390,7 @@ GameObject:
   - 4: {fileID: 2088645899}
   - 108: {fileID: 2088645898}
   - 114: {fileID: 2088645900}
+  - 114: {fileID: 2088645901}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -432,6 +445,17 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &2088645900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2088645897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12c47114a67b02a43a905b21b076798d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2088645901
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
