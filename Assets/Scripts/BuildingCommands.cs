@@ -5,14 +5,12 @@ using UnityEngine;
 
 public class BuildingCommands : MonoBehaviour
 {
-    Vector3 originalPosition;
     public GameObject Build;
 
     // Use this for initialization
     void Start()
     {
-        // Grab the original local position of the building when the app starts.
-        originalPosition = this.transform.localPosition;
+       
     }
 
     // Called by GazeGestureManager when the user performs a Select gesture
@@ -30,8 +28,7 @@ public class BuildingCommands : MonoBehaviour
     void OnAddress()
     {
         // spawn the building into the scene
-        for (int i = 0; i < 10; i++)
-            Instantiate(Build, new Vector3(i * 2.0f, 0, 0), Quaternion.identity);
+          Instantiate(Build, new Vector3(2, 2, 0), Quaternion.identity);
 
         Debug.Log(Build);
 
