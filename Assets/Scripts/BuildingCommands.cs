@@ -30,7 +30,9 @@ public class BuildingCommands : MonoBehaviour
     void OnAddress()
     {
         // spawn the building into the scene
-        Instantiate(Build);
+        for (int i = 0; i < 10; i++)
+            Instantiate(Build, new Vector3(i * 2.0f, 0, 0), Quaternion.identity);
+
         Debug.Log(Build);
 
     }
