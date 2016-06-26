@@ -5,13 +5,15 @@ public class SphereCommands : MonoBehaviour
 {
     Vector3 originalPosition;
 
-    public GameObject initialObject;
-    public GameObject swapObject;
+    //public GameObject initialObject;
+    //public GameObject swapObject;
 
-    Mesh initialMesh;
-    Mesh swapMesh;
+    // Mesh initialMesh;
+    //Mesh swapMesh;
 
-    GameObject theTarget;
+    //GameObject theTarget;
+
+    public GameObject targetchild;
 
     // Use this for initialization
     void Start()
@@ -20,7 +22,7 @@ public class SphereCommands : MonoBehaviour
         originalPosition = this.transform.localPosition;
 
         //stuff from internet
-        theTarget = initialObject;
+        //theTarget = initialObject;
 
 
     }
@@ -29,10 +31,12 @@ public class SphereCommands : MonoBehaviour
     void OnSelect()
     {
 
-        initialMesh = initialObject.GetComponent<MeshFilter>().mesh;
-        swapMesh = swapObject.GetComponent<MeshFilter>().mesh;
+        //initialMesh = initialObject.GetComponent<MeshFilter>().mesh;
+        //swapMesh = swapObject.GetComponent<MeshFilter>().mesh;
 
-        theTarget.GetComponent<MeshFilter>().mesh = swapMesh;
+        //theTarget.GetComponent<MeshFilter>().mesh = swapMesh;
+
+        targetchild.SetActive(true);
     }
 
     // Called by SpeechManager when the user says the "Reset world" command
