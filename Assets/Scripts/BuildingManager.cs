@@ -27,7 +27,7 @@ public class BuildingManager : Singleton<BuildingManager>
         /* TODO: DEVELOPER CODING EXERCISE 5.a */
 
         // 5.a: Add keyword Expand Model to call the ExpandModelCommand function.
-        keywordCollection.Add("Move Model", ExpandModelCommand);
+        keywordCollection.Add("Expand Model", ExpandModelCommand);
 
 
         // 5.a: Add keyword Reset Model to call the ResetModelCommand function.
@@ -57,6 +57,7 @@ public class BuildingManager : Singleton<BuildingManager>
 
     private void MoveModelCommand(PhraseRecognizedEventArgs args)
     {
+        Debug.Log("working move model");
         GestureManager.Instance.Transition(GestureManager.Instance.ManipulationRecognizer);
     }
 

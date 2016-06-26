@@ -15,26 +15,21 @@ public class GestureAction : MonoBehaviour
 
     void Update()
     {
-        PerformRotation();
+        // PerformRotation();
     }
-
+    /*
     private void PerformRotation()
     {
         if (GestureManager.Instance.IsNavigating &&
             (!ExpandModel.Instance.IsModelExpanded ||
             (ExpandModel.Instance.IsModelExpanded && HandsManager.Instance.FocusedGameObject == gameObject)))
         {
-            /* TODO: DEVELOPER CODING EXERCISE 2.c */
-
-            // 2.c: Calculate rotationFactor based on GestureManager's NavigationPosition.X and multiply by RotationSensitivity.
-            // This will help control the amount of rotation.
             rotationFactor = GestureManager.Instance.NavigationPosition.x * RotationSensitivity;
 
-            // 2.c: transform.Rotate along the Y axis using rotationFactor.
             transform.Rotate(new Vector3(0, -1 * rotationFactor, 0));
         }
     }
-
+    */
     void PerformManipulationStart(Vector3 position)
     {
         manipulationPreviousPosition = position;
