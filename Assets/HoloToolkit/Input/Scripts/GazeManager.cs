@@ -33,13 +33,13 @@ public class GazeManager : Singleton<GazeManager>
     /// </summary>
     public Vector3 Normal { get; private set; }
 
-    private GazeStabilizer gazeStabilizer;
+    //private GazeStabilizer gazeStabilizer;
     private Vector3 gazeOrigin;
     private Vector3 gazeDirection;
 
     void Awake()
     {
-        gazeStabilizer = GetComponent<GazeStabilizer>();
+        //gazeStabilizer = GetComponent<GazeStabilizer>();
     }
 
     private void Update()
@@ -48,9 +48,9 @@ public class GazeManager : Singleton<GazeManager>
 
         gazeDirection = Camera.main.transform.forward;
 
-        gazeStabilizer.UpdateHeadStability(gazeOrigin, Camera.main.transform.rotation);
+        //gazeStabilizer.UpdateHeadStability(gazeOrigin, Camera.main.transform.rotation);
 
-        gazeOrigin = gazeStabilizer.StableHeadPosition;
+        //gazeOrigin = gazeStabilizer.StableHeadPosition;
 
         UpdateRaycast();
     }
