@@ -11,10 +11,22 @@ public class SpeechManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        keywords.Add("Get Address", () =>
+        keywords.Add("Show Map", () =>
         {
             // Call the OnAddress method on every descendant object.
             this.BroadcastMessage("OnAddress");
+        });
+
+        keywords.Add("Dispatch", () =>
+        {
+            // Call the OnAddress method on every descendant object.
+            this.BroadcastMessage("Dispatch");
+        });
+
+        keywords.Add("Entry Point", () =>
+        {
+            // Call the OnAddress method on every descendant object.
+            this.BroadcastMessage("EntryPoint");
         });
 
         // Tell the KeywordRecognizer about our keywords.
